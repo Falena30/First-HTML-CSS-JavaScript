@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <script src="js.js"></script>
+        
+    </head>
+    <body>
+        
+        <div id="overlay" onclick="off()">
+                <div id="text">
+                     <img src="this image .jpg" alt="Dimas Adi Suyikno""> 
+                </div>
+        </div>
+        
+        <div class="foto_profil" align="center">
+            <div class="pembuka">
+                <h1>My Profil</h1>
+            </div>
+            <img src="this image.jpg" alt="Dimas Adi Suyikno" onclick="on()">
+        </div>   
+        <div class="navigasi" align="center"> 
+                <button class="button" type="button" onclick="biodiri()">Data Diri</button>
+                <button class="button" type="button" onclick="bahasapemrogrman()">Pemograman</button>
+                <button class="button" type="button" onclick="pendidikan()">Pendidikan</button>
+        </div>
+        <div class="data">
+            <div id="data_diri" align="center">
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>Falena</td>
+                        </tr>
+                        <tr>
+                            <td>Universitas</td>
+                            <td>University</td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Lahir</td>
+                            <td>At Birth</td>
+                        </tr>
+                        <tr>
+                            <td>Tempat Lahir</td>
+                            <td>in certain location</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="Bahasa" align="center">
+                        <table>
+                            <tr>
+                                <td>C#</td>
+                                <td>****</td>
+                            </tr>
+                            <tr>
+                                <td>PHP</td>
+                                <td>***</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>**</td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>*</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="pend" align="center">
+                            <table>
+                                <tr>
+                                    <td>Elemntary School</td>
+                                    <td>early 2000s - late 2000s</td>
+                                </tr>
+                                <tr>
+                                    <td>Junior highschool</td>
+                                    <td>late 2000s - early 2010s</td>
+                                </tr>
+                                <tr>
+                                    <td>Senior HighSchool</td>
+                                    <td>early 2010s - early 2010s</td>
+                                </tr>
+                                <tr>
+                                    <td>University</td>
+                                    <td>early 2010s - late 2010s</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>                
+                    <script>
+                        var y = document.getElementById("Bahasa");
+                        var x = document.getElementById("data_diri");
+                        var z = document.getElementById("pend");
+                        document.getElementById("overlay").style.display = "none";
+                        y.style.display = "none";
+                        x.style.display = "none";
+                        z.style.display = "none";
+                    </script>
+        <footer> Copyright © 2019 Falena</footer>
+    </body>
+</html>
